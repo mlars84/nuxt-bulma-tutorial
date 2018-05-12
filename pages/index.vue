@@ -4,17 +4,16 @@
       <h1 class="title">
         Hello World
       </h1>
+      <span class="icon has-text-success">
+        <i class="fas fa-check-square"></i>
+      </span>
     </div>
   </section>
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
 
 export default {
-  components: {
-    AppLogo
-  }
 }
 </script>
 
