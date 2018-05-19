@@ -13,10 +13,6 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.0.13/css/all.css'}
     ],
-    css: [
-      // node.js module but we specify the pre-processor
-      { src: '~assets/main.sass', lang: 'sass' }
-    ],
     script: [
       { src: "https://unpkg.com/ionicons@4.0.0/dist/ionicons.js" }
     ]
